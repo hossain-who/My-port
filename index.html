@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Stylsheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery (from CDN) -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Your custom JS file -->
+    <script src="js/script.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <img src="img/image.png" alt="Hussain Rifat">
+        <h1>Hussain Rifat</h1>
+        <p class="intro">
+            Hi! I am a web developer with a passion for creating beautiful and functional websites.
+        </p>
+    </header>
+    <section id="about-me" class="about-me">
+        <h2><a href="#about-me">About Me</a></h2>
+        <p>
+            I am a self-motivated web developer who loves building user-friendly websites.
+            I have experience with HTML, CSS, JavaScript, and PHP. In my free time,
+            I enjoy learning new technologies and improving my skills.
+        </p>
+    </section>
+    <section class="skills">
+        <h2>My Skill</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JAVASCRIPT</div>
+            <div class="skill">PHP</div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" rows="5" required=""></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
